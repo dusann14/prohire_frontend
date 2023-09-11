@@ -1,0 +1,11 @@
+.modal p {
+  font-family: "Cambria";
+  font-size: 2rem;
+}
+
+.cv {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  font-weight: bold;
+}

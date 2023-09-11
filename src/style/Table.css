@@ -1,0 +1,44 @@
+.rounded-table {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  margin: 20px auto;
+  width: 100%;
+  float: left;
+}
+
+.rounded-row {
+  display: flex;
+  gap: 10px;
+  background-color: white;
+}
+
+.rounded-cell {
+  flex: 1;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.rounded-cell:last-child {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .rounded-table {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .rounded-row {
+    flex-direction: column;
+  }
+}
+
+.search-button {
+  cursor: pointer;
+}

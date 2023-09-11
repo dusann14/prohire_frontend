@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+}
+
+.jobDetails-div {
+  background-color: #89cff0;
+  font-family: "Montserrat";
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.jobDetails-card {
+  margin: 100px;
+  background-color: white;
+  border-bottom: none;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: "Montserrat";
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.job-title {
+  font-size: 3.5rem;
+  margin: 0;
+  color: #666;
+}
+
+.company {
+  font-size: 3rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.location {
+  color: #999;
+  margin: 8px 0;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
